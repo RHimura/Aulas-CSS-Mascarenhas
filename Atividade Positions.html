@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Revista</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(156, 225, 235);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .cabecalho {
+            text-align: center;
+            background-color: brown;
+            padding: 10px;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .linha-principal {
+            display: flex;
+            gap: 10px;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .principal {
+            background-color: rgb(115, 192, 115);
+            flex: 2;
+            padding: 10px;
+            border-radius: 50px;
+            text-align: center;
+
+        }
+
+        .lateral {
+            background-color: yellowgreen;
+            flex: 1;
+            padding: 10px;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .linha-secundaria {
+            display: flex;
+            gap: 10px;
+        }
+
+        .secundario {
+            text-align: center;
+            border-radius: 50px;
+            background-color: aqua;
+            flex: 1;
+        }
+    </style>
+    <div class="container">
+        <header class="cabecalho">Minha Revista</header>
+
+        <div class="linha-principal">
+            <article class="principal">Artigo Principal</article>
+            <aside class="lateral">Barra Lateral</aside>
+        </div>
+        <div class="linha-secundaria">
+            <div class="secundario">Artigo Secundário 1</div>
+            <div class="secundario">Artigo Secundário 2</div>
+            <div class="secundario">Artigo Secundário 3</div>
+        </div>
+    </div>
+</body>
+
+</html>
