@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(138, 29, 47);
+    animation: comecar 2s infinite;
+}
+
+.imagemMaes {
+    opacity: 1;
+    animation: pulsar 3s infinite;
+    width: 400px;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes comecar {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
