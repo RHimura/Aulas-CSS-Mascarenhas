@@ -1,0 +1,48 @@
+.bandeira {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.faixa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.verde {
+    background: linear-gradient(33.69deg,
+            #00923F 0%, #00923F 33.333%, transparent 33.333%);
+}
+
+.vermelho {
+    background: linear-gradient(33.69deg,
+            transparent 33.333%, #DA251D 33.333%, #DA251D 66.666%, transparent 66.666%);
+}
+
+.amarelo {
+    background: linear-gradient(33.69deg,
+            transparent 66.666%, #FFF500 66.666%, #FFF500 100%);
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo img {
+    max-width: 70%;
+}
